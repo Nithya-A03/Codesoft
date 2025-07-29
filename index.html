@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NITHYA A - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, #8e44ad, #e84393);
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sections */
+    section {
+      max-width: 960px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #6c3483;
+      border-left: 5px solid #f39c12;
+      padding-left: 1rem;
+    }
+
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .about-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 3px solid #f4a261;
+    }
+
+    ul.skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1rem;
+    }
+    ul.skills-list li {
+      background: #f4a261;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      color: #8e44ad;
+    }
+
+    footer {
+      text-align: center;
+      background: #2e4057;
+      color: #fff;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-content {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NITHYA A</h1>
+    <p>💻 MCA Student | Aspiring Web Developer | Passionate Learner</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="img.jpg" alt="Nithya's Photo" class="about-img" />
+      <p>
+        I'm Nithya A, an enthusiastic MCA student focused on web development and user-friendly design.
+        My strengths lie in HTML, CSS, JavaScript, and Python, and I'm passionate about creating clean and responsive web experiences.
+      </p>
+    </div>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>C/C++</li>
+      <li>Teamwork</li>
+      <li>Problem Solving</li>
+      <li>Communication</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>🧧 Resume</h2>
+    <p><strong>👤 Name:</strong> NITHYA A</p>
+    <p><strong>🏠 Address:</strong> 3/32, Pothasandhiram Village, Kundhumaranapalli(P)</p>
+    <p><strong>✉ Email:</strong> nithya.mca2024@adhiyamaan.in</p>
+    <p><strong>📞 Phone:</strong> +91-6380554191</p>
+    <p><strong>🎓 Education:</strong> Pursuing MCA, Adhiyamaan College of Engineering, Hosur</p>
+    <p><strong>🛠 Skills:</strong> Frontend Web Development, Team Collaboration, Analytical Thinking</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>Project:</strong> CSI Conference Website using Bootstrap</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Nithya-A03/NITHYA" target="_blank">View Project</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p><strong>Email:</strong> nithya.mca2024@adhiyamaan.in</p>
+    <p><strong>Phone:</strong> +91-6380554191</p>
+    <p>I’m open to internships, freelance opportunities, or collaborations. Let's connect and create something impactful!</p>
+  </section>
+
+  <footer>
+    &copy; 2025 NITHYA A | Portfolio Website. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
